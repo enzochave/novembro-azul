@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    color: rgb(127, 127, 255);
+    font-size: 50px;
+
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(159, 230, 248);
+    color: white;
+    padding: 20px;
+    border: 5px solid #333;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.faixa {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #040457;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.baixo p {
+    margin: 0;                
+    font-size: 14px;
+}
