@@ -1,0 +1,79 @@
+/* Fundo geral */
+body {
+    background: linear-gradient(#9FE6F8, #c4f1ff);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0F5FA6;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.25);
+}
+
+.faixa h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+/* Botão */
+.btn-voltar {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background-color: white;
+    color: #0F5FA6;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #e6e6e6;
+}
+
+/* Área de conteúdo */
+.conteudo {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Título da sessão */
+.conteudo h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.azul {
+    color: #0F5FA6;
+    font-weight: bold;
+}
+
+
+.lista-cuidados {
+    list-style: none;
+    padding: 0;
+    font-size: 26px;
+}
+
+.lista-cuidados li {
+    margin: 15px 0;
+    background: white;
+    padding: 15px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform .2s;
+}
+
+.lista-cuidados li:hover {
+    transform: scale(1.03);
+}

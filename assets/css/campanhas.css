@@ -1,0 +1,60 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    background-color: aqua;
+    }
+    header {
+        background-color: aqua;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .ods {
+        background-color: white;
+        border: 1px solid #ccc;
+        width: 180px;
+        text-align: center;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+
+    .ods-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .ods img {
+        width: 100%;
+        border-radius: 7px;
+    }
+    .ods p {
+    margin-top: 10px;
+    font-weight: bold;
+    }
+
+    .ods:hover {
+        transform: scale(1.05);
+    }
+
+    .ods-container-2 {
+        background-color: white;
+        color: black;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    button {
+        text-decoration: none;
+        color: black;
+    }
+
+    button a:hover {
+        scale: 2.09;
+        color: aqua;
+    }
