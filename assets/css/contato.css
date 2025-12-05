@@ -27,3 +27,14 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: #9FE6F8;
+}
+
+
