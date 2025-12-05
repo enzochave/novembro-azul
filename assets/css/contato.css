@@ -13,7 +13,7 @@ label, input, textarea, button {
 
 button {
     padding: 10px;
-    background: #25D366;
+    background: black;
     color: white;
     border: none;
     font-size: 18px;
@@ -21,9 +21,6 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
-    background: #1ebe57;
-}
 
 input, textarea {
     padding: 8px;
